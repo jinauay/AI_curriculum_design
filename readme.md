@@ -80,7 +80,12 @@ Rumor\_Detection/
 
 \## 4.环境配置
 
-Python 3.10+，PyTorch 2.x
+运行前需要执行 pip install torch pandas numpy scikit-learn requests transformers emoji 
+
+！！！重要：
+本项目使用了 vinai/bertweet-base 预训练模型。如果在国内网络环境下运行，初次下载模型权重极易超时卡死。
+请在运行 train.py 前，务必在终端执行以下命令开启国内镜像加速：
+export HF_ENDPOINT=https://hf-mirror.com
 
 
 
