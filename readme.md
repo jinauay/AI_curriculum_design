@@ -91,8 +91,7 @@ export HF_ENDPOINT=https://hf-mirror.com
 
 \## 5.API配置
 
-在交我办申请，获得api-key
-
+在交我办申请，获得api-key，在src/explain.py中输入自己的apikey
 
 
 \## 5.使用数据
