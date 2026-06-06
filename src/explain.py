@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("SJTU_API_KEY")
+API_KEY = os.getenv("SJTU_API_KEY")           #麻烦老师输入自己的apikey
 BASE_URL = os.getenv("SJTU_API_BASE", "https://models.sjtu.edu.cn/api/v1")
 MODEL_NAME = os.getenv("MODEL_NAME", "deepseek-chat")
 
