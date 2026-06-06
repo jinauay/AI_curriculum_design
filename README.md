@@ -1,2 +1,0 @@
-# AI_curriculum_design
-人工智能导论大作业可解释的谣言检测
