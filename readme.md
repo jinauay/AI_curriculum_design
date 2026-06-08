@@ -40,7 +40,7 @@ SJTU DeepSeek 大模型
 
 
 
-\## 3.项目结构
+## 3.项目结构
 
 Rumor\_Detection/
 
@@ -78,7 +78,7 @@ Rumor\_Detection/
 
 
 
-\## 4.环境配置
+## 4.环境配置
 
 运行前需要执行 pip install torch pandas numpy scikit-learn requests transformers emoji 
 
@@ -89,12 +89,12 @@ export HF_ENDPOINT=https://hf-mirror.com
 
 
 
-\## 5.API配置
+## 5.API配置
 
 在交我办申请，获得api-key，在src/explain.py中输入自己的apikey
 
 
-\## 5.使用数据
+## 5.使用数据
 
 数据集包含 “train.csv” 和 “val.csv”
 
@@ -102,7 +102,7 @@ export HF_ENDPOINT=https://hf-mirror.com
 
 
 
-\## 6.模型结构
+## 6.模型结构
 
 分类器：`vinai/bertweet-base`
 
@@ -114,13 +114,13 @@ export HF_ENDPOINT=https://hf-mirror.com
 
 
 
-\## 7.模型训练
+## 7.模型训练
 
 保存在checkpoints/best\_model/bertweet.pth
 
 
 
-\## 8.项目亮点
+## 8.项目亮点
 
 使用 BERTweet 微调分类器保证分类精度
 
